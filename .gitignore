@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files (too large)
+models/
+
+# Logs
+storage/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
