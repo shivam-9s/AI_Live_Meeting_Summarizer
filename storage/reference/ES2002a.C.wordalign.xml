@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<nite:root nite:id="ES2002a.C.wordalign" xmlns:nite="http://nite.sourceforge.net/">
+   <wordalign nite:id="ES2002a.C.wordalign.1" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1307)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words0)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.2" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1310)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words1)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.3" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1311)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words2)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.4" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1312)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words3)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.5" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1313)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words4)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.6" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1314)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words5)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.7" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1315)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words6)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.8" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words8)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.9" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1318)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words11)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.10" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1321)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words13)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.11" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1322)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words14)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.12" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1323)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words15)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.13" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1324)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words16)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.14" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1325)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words17)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.15" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1326)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words18)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.16" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1327)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words19)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.17" type="I">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1330)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.18" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1331)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words22)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.19" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1332)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words23)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.20" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1333)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words24)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.21" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words25)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.22" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words26)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.23" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1334)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words27)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.24" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1335)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words29)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.25" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1336)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words30)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.26" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1337)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words31)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.27" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1338)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words32)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.28" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1339)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words33)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.29" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1340)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words34)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.30" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1341)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words35)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.31" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1342)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words36)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.32" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1343)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words37)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.33" type="I">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1344)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.34" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1345)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words40)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.35" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1346)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words41)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.36" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1347)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words42)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.37" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1348)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words43)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.38" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1349)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words44)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.39" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1350)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words45)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.40" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1351)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words46)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.41" type="I">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1354)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.42" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1357)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words58)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.43" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words60)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.44" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1360)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words61)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.45" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1361)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words62)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.46" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words64)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.47" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words65)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.48" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1364)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words66)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.49" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1365)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words67)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.50" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1366)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words68)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.51" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1367)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words69)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.52" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1368)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words70)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.53" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1369)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words71)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.54" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1370)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words72)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.55" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1371)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words73)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.56" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1372)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words74)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.57" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words75)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.58" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1373)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words76)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.59" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1374)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words77)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.60" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1375)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words78)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.61" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1376)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words79)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.62" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1377)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words80)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.63" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1378)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words81)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.64" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words82)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.65" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1379)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words83)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.66" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1380)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words84)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.67" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words85)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.68" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1381)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words86)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.69" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1382)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words87)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.70" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1383)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words88)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.71" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words89)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.72" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1384)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words90)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.73" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1385)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words91)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.74" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1388)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words93)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.75" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1389)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words94)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.76" type="D">
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words95)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.77" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1390)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words96)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.78" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1391)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words97)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.79" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1392)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words98)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.80" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1393)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words99)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.81" type="I">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1394)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.82" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1395)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words100)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.83" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1396)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words101)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.84" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1397)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words102)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.85" type="C">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1398)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words103)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.86" type="I">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1401)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.87" type="I">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1404)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.88" type="I">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1407)"/>
+   </wordalign>
+   <wordalign nite:id="ES2002a.C.wordalign.89" type="S">
+      <nite:pointer role="asr"  href="ES2002a.C.words.xml#id(ES2002a.C.aw1410)"/>
+      <nite:pointer role="reference"  href="ES2002a.C.words.xml#id(ES2002a.C.words105)"/>
+   </wordalign>
+</nite:root>
