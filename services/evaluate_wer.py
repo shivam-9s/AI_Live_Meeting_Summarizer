@@ -1,14 +1,16 @@
 from jiwer import wer
 
-# Load reference transcript (correct text)
-with open("storage/reference.txt", "r") as f:
-    reference = f.read()
+# Load reference transcript
+with open("storage/reference/reference_trimmed.txt", "r", encoding="utf-8") as f:
+    reference = f.read().strip().lower()
 
-# Load model transcript
-with open("storage/transcripts/es2002a_array1_16k.txt", "r") as f:
-    hypothesis = f.read()
+# Load hypothesis transcript
+with open("storage/transcripts/trimmed_30s.txt", "r", encoding="utf-8") as f:
+    hypothesis = f.read().strip().lower()
 
-# Calculate WER
+print("\nReference:\n", reference[:200])
+print("\nHypothesis:\n", hypothesis)
+
 error = wer(reference, hypothesis)
 
-print("Word Error Rate:", error)
+print("\nWord Error Rate:", error)

@@ -2,28 +2,38 @@ import wave
 import json
 from vosk import Model, KaldiRecognizer
 
-MODEL_PATH = "models/vosk-model-small-en-us-0.15"
-AUDIO_FILE = "storage/processed_audio/es2002a_array1_16k.wav"
+AUDIO_FILE = "storage/processed_audio/trimmed_30s.wav"
+MODEL_PATH = "models/vosk-model-en-us-0.22"
 
-print("Loading model...")
 model = Model(MODEL_PATH)
 
 wf = wave.open(AUDIO_FILE, "rb")
 
-if wf.getnchannels() != 1 or wf.getframerate() != 16000:
-    print("Audio must be mono 16k WAV")
-    exit(1)
-
 rec = KaldiRecognizer(model, wf.getframerate())
+
+transcript = []
+
+print("Transcribing audio...")
 
 while True:
     data = wf.readframes(4000)
     if len(data) == 0:
         break
+
     if rec.AcceptWaveform(data):
         result = json.loads(rec.Result())
-        print("Partial:", result.get("text"))
+        transcript.append(result.get("text", ""))
 
-final_result = json.loads(rec.FinalResult())
-print("\nFinal Transcription:")
-print(final_result.get("text"))
+final = json.loads(rec.FinalResult())
+transcript.append(final.get("text", ""))
+
+text = " ".join(transcript)
+
+print("\nTranscript:\n")
+print(text)
+
+# Save transcript
+with open("storage/transcripts/trimmed_30s.txt", "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("\nTranscript saved.")
