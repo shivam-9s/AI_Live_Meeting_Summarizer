@@ -1,28 +1,52 @@
+import re
 from jiwer import wer
 
-# reference
-with open("storage/reference/reference_trimmed.txt", "r", encoding="utf-8") as f:
-    reference = f.read().strip().lower()
-
-# vosk transcript
-with open("storage/transcripts/trimmed_30s.txt", "r", encoding="utf-8") as f:
-    vosk = f.read().strip().lower()
-
-# whisper transcript
-with open("storage/transcripts/whisper_trimmed_30s.txt", "r", encoding="utf-8") as f:
-    whisper = f.read().strip().lower()
+REFERENCE_FILE = "storage/reference/reference_trimmed.txt"
+HYPOTHESIS_FILE = "storage/transcripts/whisper_output.txt"
 
 
-print("\nREFERENCE:\n", reference[:200])
-print("\nVOSK:\n", vosk)
-print("\nWHISPER:\n", whisper)
+def normalize(text):
 
-print("\n------------------------")
+    text = text.lower()
 
-vosk_wer = wer(reference, vosk)
-whisper_wer = wer(reference, whisper)
+    # remove punctuation
+    text = re.sub(r"[^\w\s]", "", text)
 
-print("VOSK WER:", vosk_wer)
-print("WHISPER WER:", whisper_wer)
+    # remove filler words
+    fillers = ["um", "uh", "erm", "hmm", "yeah", "okay"]
+    words = text.split()
+    words = [w for w in words if w not in fillers]
 
-print("\nBetter Model:", "Whisper" if whisper_wer < vosk_wer else "Vosk")
+    text = " ".join(words)
+
+    # remove extra spaces
+    text = re.sub(r"\s+", " ", text)
+
+    return text.strip()
+
+
+# load reference
+with open(REFERENCE_FILE, "r", encoding="utf-8") as f:
+    reference = f.read()
+
+# load whisper transcript
+with open(HYPOTHESIS_FILE, "r", encoding="utf-8") as f:
+    hypothesis = f.read()
+
+
+# normalize
+reference = normalize(reference)
+hypothesis = normalize(hypothesis)
+
+
+print("\nREFERENCE SAMPLE:\n", reference[:300])
+print("\nWHISPER SAMPLE:\n", hypothesis[:300])
+
+print("\nReference word count:", len(reference.split()))
+print("Whisper word count:", len(hypothesis.split()))
+
+
+# calculate WER
+error = wer(reference, hypothesis)
+
+print("\nWhisper Word Error Rate:", error)

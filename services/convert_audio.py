@@ -1,19 +1,36 @@
+import os
 import librosa
 import soundfile as sf
+import numpy as np
 
-INPUT_FILE = "storage/raw_audio/ES2002a.Array1-01.wav"
-OUTPUT_FILE = "storage/processed_audio/trimmed_30s.wav"
+INPUT_FOLDER = "storage/raw_audio"
+OUTPUT_FOLDER = "storage/processed_audio"
 
-print("Loading audio...")
+TARGET_SR = 16000
 
-audio, sr = librosa.load(INPUT_FILE, sr=16000, mono=True)
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-print("Trimming first 30 seconds...")
+for file in os.listdir(INPUT_FOLDER):
 
-audio_trimmed = audio[0:30*16000]
+    if file.endswith(".wav"):
 
-print("Saving audio...")
+        input_path = os.path.join(INPUT_FOLDER, file)
+        output_path = os.path.join(OUTPUT_FOLDER, file)
 
-sf.write(OUTPUT_FILE, audio_trimmed, 16000, subtype='PCM_16')
+        print("Processing:", file)
 
-print("Audio converted successfully!")
+        # load audio
+        audio, sr = librosa.load(input_path, sr=TARGET_SR, mono=True)
+
+        # remove silence
+        audio, _ = librosa.effects.trim(audio, top_db=20)
+
+        # normalize volume
+        audio = audio / np.max(np.abs(audio))
+
+        # save processed audio
+        sf.write(output_path, audio, TARGET_SR, subtype="PCM_16")
+
+        print("Saved:", output_path)
+
+print("\nAudio preprocessing completed.")
